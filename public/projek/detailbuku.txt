@@ -1,0 +1,212 @@
+A. KATEGORI BUKU IT
+
+
+1
+JUDUL   : PHP 7 MYSQL
+penulis : Jubilee Enterprise
+
+
+Detail Buku
+Pilih Format Buku Yang Tersedia
+
+Deskripsi Buku
+Pada buku ini akan dibahas pembuatan aplikasi database MySQL dan PHP. Anda akan mempelajari beragam tool, syntax, query, dan langkah-langkah pembuatan aplikasi database. Dengan demikian Anda bisa mengenal aneka bahasa pemrograman yang berlainan dalam waktu singkat. Semoga buku ini bisa membantu Anda mengenal ragam pemrograman database di dunia IT.
+Detail
+Jumlah Halaman
+72
+
+Penerbit
+Elex Media Komputindo
+
+Tanggal Terbit
+9 Jun 2020
+
+Berat
+0.0 kg
+
+ISBN
+SCOOPG200049
+
+Lebar
+0.0 cm
+
+Bahasa
+ind
+
+Panjang
+0.0cm
+
+2.
+JUDUL    : Kitab Desain Grafis dengan CorelDraw 2019
+PENULIS : JUBILEE ENTERPRISE
+
+Deskripsi Buku
+Bagaimana memulai proses belajar CorelDraw? Dari buku ini,
+ karena bahasan yang tercakup telah meliputi versi terakhir, yaitu CorelDraw 2019. Dengan demikian, 
+Anda bisa menggunakan CorelDraw dengan tampilan, fitur, dan perintah terbaru yang lebih praktis, lengkap, dan mudah digunakan.
+
+
+SBN : 9786230010699
+Lebar : 14 cm
+Berat : 0,38 kg
+Tahun terbit : 2019
+Penerbit : Elex Media Komputindo
+Jumlah Halaman : 280
+
+
+
+B. KATEGORI BUKU ISLAM
+
+
+1. 
+PENULIS : M.Anwar Djaelani
+JUDUL	 : Ulama Kritis Berjejak Manis
+
+Buku ini menyajikan kisah puluhan ulama yang punya rekam jejak manis. 
+Mereka benar-benar telah berjuang agar iman umat Islam selalu kukuh. 
+Mereka berjuang, bernahi mungkar, agar terjamin kehidupan kita bebas dari maksiat.
+ Mereka berjuang, beramar ma'ruf, agar semua syariat Allah bisa tegak. Buku ini, sejumput ikhtiar, 
+agar kita tetap punya keyakinan bahwa berposisi sebagai “Sang Pemberi Ingat” itu sangat bermanfaat. 
+
+Detail
+Jumlah Halaman
+352.0
+
+Penerbit
+Pustaka Al Kautsar
+
+Tanggal Terbit
+17 Agt 2022
+
+Berat
+0.315 kg
+
+ISBN
+9789795929918
+
+Lebar
+13.5 cm
+
+Bahasa
+Indonesia
+
+Panjang
+20.5cm
+
+2.
+PENULIS : OZKAN OZE, CEYHUN SEN
+JUDUL   :Kisah Nabi Muhammad SAW
+
+Deskripsi Buku
+Nabi Muhammad SAW adalah sosok yang baik hati dan pantang menyerah.
+Walaupun sering disakiti banyak orang jahat, Nabi kita adalah orang yang baik dan pemaaf.
+Seperti apa kisah hidup Nabi Muhammad SAW yang sudah membuat Nabi kita begitu hebat dan mengagumkan?
+
+Ayo, kita berkenalan dengan Nabi Muhammad SAW lebih dekat
+
+
+Detail
+Jumlah Halaman
+144
+
+Penerbit
+m&c!
+
+Tanggal Terbit
+23 Mar 2021
+
+Berat
+0.3 kg
+
+ISBN
+9786230304200
+
+Lebar
+16.5 cm
+
+Bahasa
+Indonesia
+
+Panjang
+22.0cm
+
+
+C. KATEGORI BUKU NOVEL
+
+1.
+penulis : Almira Bastari
+judul   : Home Sweet Loan
+
+
+Deskripsi buku
+
+Novel Home Sweet Loan mengangkat genre yang sama dengan karya Almira sebelumnya yang berjudul “Ganjil Genap”, yaitu metropop.
+ Namun, novel Home Sweet Loan ini akan menyajikan cerita yang ditulis menjadi lebih serius.
+Layaknya novel-novel karya Almira sebelumnya, Home Sweet Loan menggunakan latar cerita di Kota Jakarta. Namun, 
+cerita kali ini lebih menyoroti kaum menengah dengan mengisahkan perjuangan dari sudut pandang mereka.
+
+
+Detail
+Jumlah Halaman
+312
+
+Penerbit
+Gramedia Pustaka Utama
+
+Tanggal Terbit
+15 Feb 2022
+
+Berat
+0.21 kg
+
+ISBN
+9786020658049
+
+Lebar
+13.5 cm
+
+Bahasa
+Indonesia
+
+Panjang
+20cm
+
+2.
+penulis : MOMMY ASF
+judul   : Layangan Putus
+
+Deskripsi Buku
+Sinopsis
+Seorang gadis remaja polos yang berasal dari daerah, tumbuh, berkembang,
+ dan menemukan cinta di kota besar yang sangat berbeda dengan iklim daerah asalnya. 
+Mimpi sederhananya menyambung pendidikan dan menyelesaikannya tepat waktu, 
+namun berubah setelah ia mengenal sosok lelaki tangguh Lelaki yang mandiri
+ dan berpendirian keras mengenalkannya dengan dunia baru yang belum pernah ia temui. 
+Dunia yang asyik dan menyenangkan yang berbeda total dengan kehidupan remaja di daerah asalnya.
+
+
+Detail
+Jumlah Halaman
+268.0
+
+Penerbit
+Rdm Publishers
+
+Tanggal Terbit
+19 Feb 2010
+
+Berat
+0.3 kg
+
+ISBN
+9786020729091
+
+Lebar
+15.0 cm
+
+Bahasa
+Indonesia
+
+Panjang
+21.0cm
+
