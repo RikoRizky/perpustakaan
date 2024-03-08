@@ -19,6 +19,7 @@ Route::middleware(['auth'])->group(function () {
 
     Route::get("home",[AppController::class,"home"]);
     Route::get("data",[AppController::class,"data"]);
+    
 });
 
 Route::get("/",[AppController::class,"login"])->name("login");

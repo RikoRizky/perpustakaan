@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('perpustakaan', function (Blueprint $table) {
+        Schema::create('library', function (Blueprint $table) {
             $table->id();
             $table->string("isbn",25)->unique();
             // $table->string('picture',255)->nullable();
@@ -30,6 +30,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('perpustakaan');
+        Schema::dropIfExists('library');
     }
 };
