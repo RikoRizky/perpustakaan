@@ -13,7 +13,15 @@ return new class extends Migration
     {
         Schema::create('perpustakaan', function (Blueprint $table) {
             $table->id();
-            $table->timestamps();
+            $table->string("isbn",25)->unique();
+            // $table->string('picture',255)->nullable();
+            $table->string("title",255);
+            $table->string("writer",255);
+            $table->string("publisher",255);
+            $table->date("date_issue");
+            $table->longText("description");
+            $table->string("language",2);
+            $table->longText("number_page");
         });
     }
 
