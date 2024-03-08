@@ -15,7 +15,12 @@ use App\Http\Controllers\AppController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-    Route::get("/",[AppController::class,"home"]);
+Route::middleware(['auth'])->group(function () {
+
+    Route::get("home",[AppController::class,"home"]);
+    Route::get("data",[AppController::class,"data"]);
 });
+
+Route::get("/",[AppController::class,"login"])->name("login");
+Route::post("proses-login",[AuthController::class,"proses_login"]);
+Route::get("logout",[AuthController::class,"proses_logout"]);
