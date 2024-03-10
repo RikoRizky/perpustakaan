@@ -5,9 +5,9 @@ namespace Database\Seeders;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
-use App\Models\Perpustakaan;
+use App\Models\Library;
 
-class PerpustakaanSeeder extends Seeder
+class LibrarySeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -17,32 +17,29 @@ class PerpustakaanSeeder extends Seeder
         //
         $data = ([
             ([
+                "isbn"          =>  "1234",
                 "title"         =>  "PHP 7 MYSQL",
-                "writer"        =>  "Jubilee Enterprise",
+                "name"          =>  "Jubilee Enterprise",
                 "publisher"     =>  "Elex Media Komputindo",
-                "date_issue"    =>  "2020-06-04",
-                "description"   =>  "Pada buku ini akan dibahas pembuatan aplikasi database MySQL dan PHP. Anda akan mempelajari beragam tool, syntax, query, dll",
-                "language"      =>  "Indonesia",
-                "number_page"   =>  "72"
+                "date"          =>  "Cirebon 2021",
+                "shelf_number"  =>  "72"
             ]),
             ([
-                "title"         =>  "Kitab Desain Grafis dengan CorelDraw 2019",
-                "writer"        =>  "Jybulee Enterprise",
-                "publisher"     =>  "Elex Media Komputindo",
-                "date_issue"    =>  "2019-10-16",
-                "description"   =>  "Anda bisa menggunakan CorelDraw dengan tampilan, fitur, dan perintah terbaru yang lebih praktis, lengkap, dan mudah digunakan.",
-                "language"      =>  "Indonesia",
-                "number_page"   =>  "280"
+                "isbn"          =>  "1235",
+                "title"         =>  "Cara bernafas",
+                "name"          =>  "Jono",
+                "publisher"     =>  "Ya udahh",
+                "date"          =>  "Bekasi 2002",
+                "shelf_number"  =>  "41"
             ]),
             ([
-                "title"         =>  "Ulama Kritis Berjejak Manis",
-                "writer"        =>  "M Anwar jaelani",
-                "publisher"     =>  "Pustaka Al-kautsar",
-                "date_issue"    =>  "2022-08-17",
-                "description"   =>  "Buku ini menyajikan kisah puluhan ulama yang punya rekam jejak manis.",
-                "language"      =>  "Indonesia",
-                "number_page"   =>  "352"
-            ]),
+                "isbn"          =>  "1236",
+                "title"         =>  "Cara melihat",
+                "name"          =>  "Junaidi",
+                "publisher"     =>  "Somat",
+                "date"          =>  "Jember 2004",
+                "shelf_number"  =>  "12"
+            ])
         ]);
         Library::insert($data);
     }

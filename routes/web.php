@@ -15,13 +15,17 @@ use App\Http\Controllers\AppController;
 |
 */
 
-Route::middleware(['auth'])->group(function () {
+// Route::middleware(['auth'])->group(function () {
 
-    Route::get("home",[AppController::class,"home"]);
+    Route::get("/",[AppController::class,"home"]);
     Route::get("data",[AppController::class,"data"]);
+    Route::get("table",[AppController::class,"table"]);
+    Route::get("tambah-data",[AppController::class,"tambah_data"]);
+    Route::post("proses-tambah-data",[AppController::class,"proses_tambah_data"]);
+    Route::get("info",[AppController::class,"info"]);
     
-});
+// });
 
-Route::get("/",[AppController::class,"login"])->name("login");
-Route::post("proses-login",[AuthController::class,"proses_login"]);
-Route::get("logout",[AuthController::class,"proses_logout"]);
+// Route::get("/",[AppController::class,"login"])->name("login");
+// Route::post("proses-login",[AuthController::class,"proses_login"]);
+// Route::get("logout",[AuthController::class,"proses_logout"]);

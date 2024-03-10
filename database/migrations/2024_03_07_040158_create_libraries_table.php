@@ -11,17 +11,15 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('library', function (Blueprint $table) {
+        Schema::create('libraries', function (Blueprint $table) {
             $table->id();
             $table->string("isbn",25)->unique();
-            // $table->string('picture',255)->nullable();
+            $table->string('picture',255)->nullable();
             $table->string("title",255);
-            $table->string("writer",255);
+            $table->string("name",255);
             $table->string("publisher",255);
-            $table->date("date_issue");
-            $table->longText("description");
-            $table->string("language",2);
-            $table->longText("number_page");
+            $table->string("date",255);
+            $table->string("shelf_number", 10);
         });
     }
 
@@ -30,6 +28,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('library');
+        Schema::dropIfExists('libraries');
     }
 };

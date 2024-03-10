@@ -18,7 +18,6 @@
                                             <th class="text-center">Penerbit</th>
                                             <th class="text-center">Kota & Tahun Terbit</th>
                                             <th class="text-center">Nomer Rak</th>
-                                            <th class="text-center">Fitur</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -43,14 +42,6 @@
                                         <td class='text-center'>{{ $library->publisher }}</td>
                                         <td class='text-center'>{{ $library->date }}</td>
                                         <td class='text-center'>{{ $library->shelf_number }}</td>
-                                        <td class="text-center">
-                                        <a href="{{ url('data/'.$library->id.'/edit') }}" class="btn btn-success btn-sm">
-                                        Edit
-                                        </a>
-                                        <a href="{{ url('data/'.$library->id.'/hapus') }}" onclick="return confirm('Yakin hapus {{ $library->title }}?')" class="btn btn-danger btn-sm">
-                                        Hapus
-                                        </a>
-                                        </td>
                                         </tr>
                                         @endforeach
                                     </tbody>
