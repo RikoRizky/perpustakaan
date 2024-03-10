@@ -25,9 +25,16 @@ class AppController extends Controller
         }
         public function data(Request $request){
             $libraries = Library::get();
+            $q = NULL;
+
+            if (issets($request->q)){
+                $q = request->q;
+                $libraries = Libraries::where("Name","Like","%q%")->get();
+            }
             
             $data = ([
                 "libraries"     => $libraries,
+                "q"             => $q,
             ]);
             return view("data",$data);
         }

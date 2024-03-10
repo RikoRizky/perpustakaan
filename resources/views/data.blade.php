@@ -1,6 +1,24 @@
 @extends("template")
 
 @section("content")
+
+                        <form method="get" action="{{ ('data') }}">
+                            <div class="mb-3">
+                                <label class="form-label">Pencarian Buku</label>
+                                <input type="search" value="<? ($q !=NULL) ? $q : "" ?>" name='q' class='form-control'>
+                            </div>
+                            <div class="mb-3">
+                                <button type='submit' class='btn btn-primary'>
+                                    Cari
+                                </button>
+                                @if($q !=NULL)
+                                <a href="{{ url('data') }}" class="btn btn-primary">
+                                    Tampilkan Semua
+                                </a>
+                                @endif
+                            </div>
+                        </form>
+                        
                             <div class="card mb-4">
                             <div class="card-header">
                                 <i class="fas fa-table me-1"></i>
