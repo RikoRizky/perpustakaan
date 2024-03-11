@@ -19,7 +19,7 @@ use App\Http\Controllers\AppController;
 
     Route::get("/",[AppController::class,"home"]);
     Route::get("data",[AppController::class,"data"]);
-    Route::get("table",[AppController::class,"table"]);
+    Route::get("tabel",[AppController::class,"tabel"]);
     Route::get("tambah-data",[AppController::class,"tambah_data"]);
     Route::post("proses-tambah-data",[AppController::class,"proses_tambah_data"]);
     Route::get("info",[AppController::class,"info"]);

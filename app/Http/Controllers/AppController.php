@@ -23,20 +23,21 @@ class AppController extends Controller
         public function info(){
             return view("info");
         }
-        public function data(Request $request){
-            $libraries = Library::get();
-            $q = NULL;
-
-            if (issets($request->q)){
-                $q = request->q;
-                $libraries = Libraries::where("Name","Like","%q%")->get();
-            }
-            
-            $data = ([
-                "libraries"     => $libraries,
-                "q"             => $q,
-            ]);
-            return view("data",$data);
+        public function Data()
+        {
+            // Mengambil data dari model Library (sesuaikan dengan model Anda)
+            $libraries = Library::all();
+    
+            // Mengirim data ke view
+            return view('data', ['libraries' => $libraries]);
+        }
+        public function tabel()
+        {
+            // Mengambil data dari model Library (sesuaikan dengan model Anda)
+            $libraries = Library::all();
+    
+            // Mengirim data ke view
+            return view('tabel', ['libraries' => $libraries]);
         }
 
         public function proses_tambah_data(Request $request){

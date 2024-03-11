@@ -25,8 +25,8 @@
         <form class="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0">
         </form>
         <ul class="navbar-nav ms-auto ms-md-0 me-3 me-lg-4">
-            <li class="nav-item">
-                <a class="nav-link" id="navbarDropdown" href="{{ url('login')}}" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdown" href="{{ url('#')}}" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
             </li>
         </ul>
     </nav>
@@ -69,6 +69,17 @@
                                             <a class="nav-link" href="{{url('#')}}">Login</a>
                                             <a class="nav-link" href="{{url('#')}}">Register</a>
                                             <a class="nav-link" href="{{url('#')}}">Forgot Password</a>
+                                        </nav>
+                                    </div>
+                                    <a class="nav-link collapsed" href="{{url('#')}}" data-bs-toggle="collapse" data-bs-target="#pagesCollapseError" aria-expanded="false" aria-controls="pagesCollapseError">
+                                        Error
+                                        <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                                    </a>
+                                    <div class="collapse" id="pagesCollapseError" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordionPages">
+                                        <nav class="sb-sidenav-menu-nested nav">
+                                            <a class="nav-link" href="{{url('#')}}">401 Page</a>
+                                            <a class="nav-link" href="{{url('#')}}">404 Page</a>
+                                            <a class="nav-link" href="{{url('#')}}ml">500 Page</a>
                                         </nav>
                                     </div>
                                 </nav>
