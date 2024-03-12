@@ -41,40 +41,81 @@ class AppController extends Controller
         }
 
         public function proses_tambah_data(Request $request){
-            $isbn = $request->isbn;
-    
-            $picture = $request->file("picture");
-            $pictureName = $isbn."_".Str::random(25).".".$picture->getClientOriginalExtension();
-            $picture->move("./pictures/",$pictureName);
-    
+            $request->validate([
+                'isbn' => 'required',
+                'title' => 'required',
+                'name' => 'required',
+                'publisher' => 'required',
+                'date' => 'required',
+                'shelf_number' => 'required',
+                'picture' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048', // Validasi untuk file gambar
+            ]);
+        
+            // Menggunakan uuid() untuk menghasilkan string unik untuk nama gambar
+            $pictureName = $request->isbn . '_' . Str::uuid() . '.' . $request->file('picture')->getClientOriginalExtension();
+        
+            // Pindahkan gambar ke direktori pictures
+            $request->file('picture')->move(public_path('pictures'), $pictureName);
+        
+            // Membuat data baru dalam tabel Library
             Library::create([
                 "picture"       => $pictureName,
-                "isbn"          => $isbn,
+                "isbn"          => $request->isbn,
                 "title"         => $request->title,
                 "name"          => $request->name,
                 "publisher"     => $request->publisher,
                 "date"          => $request->date,
                 "shelf_number"  => $request->shelf_number,
             ]);
-    
-            return redirect("data");
+        
+            return redirect('data')->with('success', 'Data berhasil ditambahkan!');
+        }
+
+        public function hapusData($id)
+        {
+            $library = Library::find($id);
+        
+            if (!$library) {
+                return redirect('data')->with('error', 'Data tidak ditemukan.');
+            }
+        
+            // Hapus foto dari direktori
+            if ($library->picture && file_exists(public_path('pictures/' . $library->picture))) {
+                unlink(public_path('pictures/' . $library->picture));
+            }
+        
+            // Hapus data dari database
+            $library->delete();
+        
+            return redirect('data')->with('success', 'Data berhasil dihapus.');
         }
 
         public function tambah_data(){
             return view("tambah_data");
         }
 
-        public function edit_data($id){
-            $library = Library::where("id", $id)->first();
+        public function proses_edit_data(Request $request){
+            $library = Library::find($request->id);
+            $isbn = $request->isbn;
     
-            if(!$employee){
-                abort(404);
+            $library->$isbn;
+            $library->title = $request->title;
+            $library->name = $request->name;
+            $library->publisher = $request->publisher;
+            $library->date = $request->date;
+            $library->shelf_number = $request->shelf_number;
+    
+            if($request->hafile("[picture")){
+                $picture = $request->file("picture");
+                $pictureName = $isbn."_".Str::random(25).".".$picture->getClientOriginalExtension();
+                $picture->move("./pictures/",$pictureName);
+                
+                $library->picture = $pictureName;
             }
     
-            $data = ([
-                "library"  => $library,
-            ]);
+            $library->save();
     
-            return view("edit_data",$data);
+            session()->flash('message', 'Data berhasil disimpan');
+            return redirect("data/".$request->id."/edit");
         }
 }

@@ -5,8 +5,17 @@
                         <div class="card mb-4">
     <div class="card-header">
         <i class="fas fa-table me-1"></i>
-        DataTable Example
+        Tabel Data Perpustakaan 
     </div>
+    @if(session('success'))
+    <div class="alert alert-success">
+        {{ session('success') }}
+    </div>
+
+    @php
+        session()->forget('success');
+    @endphp
+@endif
     <div class="card-body">
         <table id="datatablesSimple" class="table">
             <thead>
@@ -18,7 +27,7 @@
                     <th class="text-center">Penulis</th>
                     <th class="text-center">Penerbit</th>
                     <th class="text-center">Kota & Tahun Terbit</th>
-                    <th class="text-center">Nomer Rak</th>
+                    <th class="text-center">No Rak</th>
                     <th class="text-center">Fitur</th>
                 </tr>
             </thead>

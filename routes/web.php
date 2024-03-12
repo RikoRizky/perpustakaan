@@ -25,6 +25,8 @@ use App\Http\Controllers\AppController;
     Route::get("info",[AppController::class,"info"]);
     Route::get("data/{id}/edit",[AppController::class,"edit_data"]);
     Route::post("proses-edit-data",[AppController::class,"proses_edit_data"]);
+    Route::get('data/{id}/hapus', [AppController::class, 'hapusData']);
+
     
 // });
 

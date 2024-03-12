@@ -37,7 +37,7 @@
                     <div class="sb-sidenav-menu">
                         <div class="nav">
                             <div class="sb-sidenav-menu-heading">Core</div>
-                            <a class="nav-link" href="{{url('home')}}">
+                            <a class="nav-link" href="{{url('/')}}">
                                 <div class="sb-nav-link-icon"><i class="fas fa-home"></i></div>
                                 home
                             </a>
@@ -77,6 +77,10 @@
                             <a class="nav-link" href="{{url('data')}}">
                                 <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
                                 Tables
+                            </a>
+                            <a class="nav-link" href="{{url('tambah-data')}}">
+                                <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+                                Tambah Data
                             </a>
                             <a class="nav-link" href="{{url('info')}}">
                                 <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
