@@ -17,7 +17,7 @@
                     <input type="text" name="isbn" class="form-control" id="isbn" placeholder="Masukan Nomer ISBN">
                 </div>
                 <div class="mb-3">
-                    <label for="title" class="form-label">Judul</label>
+                    <label for="title" class="form-label">Judul Buku</label>
                     <input type="text" name="title" class="form-control" id="title" placeholder="Masukan Judul Buku">
                 </div>
                 <div class="mb-3">

@@ -94,28 +94,62 @@ class AppController extends Controller
             return view("tambah_data");
         }
 
-        public function proses_edit_data(Request $request){
-            $library = Library::find($request->id);
-            $isbn = $request->isbn;
-    
-            $library->$isbn;
-            $library->title = $request->title;
-            $library->name = $request->name;
-            $library->publisher = $request->publisher;
-            $library->date = $request->date;
-            $library->shelf_number = $request->shelf_number;
-    
-            if($request->hafile("[picture")){
-                $picture = $request->file("picture");
-                $pictureName = $isbn."_".Str::random(25).".".$picture->getClientOriginalExtension();
-                $picture->move("./pictures/",$pictureName);
-                
-                $library->picture = $pictureName;
-            }
-    
-            $library->save();
-    
-            session()->flash('message', 'Data berhasil disimpan');
-            return redirect("data/".$request->id."/edit");
+        public function proses_edit_data(Request $request)
+    {
+        $request->validate([
+            'isbn' => 'required',
+            'title' => 'required',
+            'name' => 'required',
+            'publisher' => 'required',
+            'date' => 'required',
+            'shelf_number' => 'required',
+            'picture' => 'image|mimes:jpeg,png,jpg,gif|max:2048',
+        ]);
+
+        $library = Library::find($request->id);
+
+        if (!$library) {
+            return redirect('data')->with('error', 'Data tidak ditemukan.');
         }
+
+        $isbn = $request->isbn;
+
+        // Perbarui nilai atribut pada model
+        $library->isbn = $isbn;
+        $library->title = $request->title;
+        $library->name = $request->name;
+        $library->publisher = $request->publisher;
+        $library->date = $request->date;
+        $library->shelf_number = $request->shelf_number;
+
+        // Periksa apakah ada file gambar yang diunggah
+        if ($request->hasFile('picture')) {
+            // Hapus foto lama dari direktori
+            if ($library->picture && file_exists(public_path('pictures/' . $library->picture))) {
+                unlink(public_path('pictures/' . $library->picture));
+            }
+
+            // Upload foto baru
+            $picture = $request->file('picture');
+            $pictureName = $isbn . '_' . Str::random(25) . '.' . $picture->getClientOriginalExtension();
+            $picture->move(public_path('pictures/'), $pictureName);
+
+            // Update nilai atribut gambar pada model
+            $library->picture = $pictureName;
+        }
+
+        // Simpan perubahan
+        $library->save();
+
+        // Flash message
+        session()->flash('message', 'Data berhasil disimpan');
+
+        // Redirect kembali ke halaman edit dengan ID yang sesuai
+        return redirect("data/{$request->id}/edit");
+    }
+
+    
+    public function login(){
+        return view("login");
+    }
 }

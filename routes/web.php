@@ -23,13 +23,13 @@ use App\Http\Controllers\AppController;
     Route::get("tambah-data",[AppController::class,"tambah_data"]);
     Route::post("proses-tambah-data",[AppController::class,"proses_tambah_data"]);
     Route::get("info",[AppController::class,"info"]);
-    Route::get("data/{id}/edit",[AppController::class,"edit_data"]);
-    Route::post("proses-edit-data",[AppController::class,"proses_edit_data"]);
+    Route::get('data/{id}/edit', [AppController::class, 'edit_data'])->name('edit_data');
+    Route::post('proses-edit-data/{id}', [AppController::class, 'proses_edit_data'])->name('proses_edit_data');
     Route::get('data/{id}/hapus', [AppController::class, 'hapusData']);
 
+    Route::get("login",[AppController::class,"login"])->name("login");
     
 // });
 
-// Route::get("/",[AppController::class,"login"])->name("login");
 // Route::post("proses-login",[AuthController::class,"proses_login"]);
 // Route::get("logout",[AuthController::class,"proses_logout"]);
