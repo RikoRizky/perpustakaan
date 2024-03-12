@@ -59,4 +59,22 @@ class AppController extends Controller
     
             return redirect("data");
         }
+
+        public function tambah_data(){
+            return view("tambah_data");
+        }
+
+        public function edit_data($id){
+            $library = Library::where("id", $id)->first();
+    
+            if(!$employee){
+                abort(404);
+            }
+    
+            $data = ([
+                "library"  => $library,
+            ]);
+    
+            return view("edit_data",$data);
+        }
 }

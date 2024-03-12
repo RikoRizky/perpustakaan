@@ -23,6 +23,8 @@ use App\Http\Controllers\AppController;
     Route::get("tambah-data",[AppController::class,"tambah_data"]);
     Route::post("proses-tambah-data",[AppController::class,"proses_tambah_data"]);
     Route::get("info",[AppController::class,"info"]);
+    Route::get("data/{id}/edit",[AppController::class,"edit_data"]);
+    Route::post("proses-edit-data",[AppController::class,"proses_edit_data"]);
     
 // });
 
