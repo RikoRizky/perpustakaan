@@ -1,4 +1,4 @@
-@extends("pengunjung")
+@extends("template")
 
 @section("content")
     <main>

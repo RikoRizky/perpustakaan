@@ -118,7 +118,7 @@ body {
             <img src="{{url('assets/admin.png')}}">
         </div>
         <div class="text-center mt-4 name">
-            Login
+            Admin
         </div>
         <div class="card-body">
                     @if(session()->has('message'))

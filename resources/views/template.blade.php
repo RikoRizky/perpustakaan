@@ -18,7 +18,7 @@
 <body class="sb-nav-fixed">
     <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
         <!-- Navbar Brand-->
-        <a class="navbar-brand ps-3" href="{{ url('home') }}">Perpustakaan</a>
+        <a class="navbar-brand ps-3" href="{{ url('tampilan') }}">Perpustakaan</a>
         <!-- Sidebar Toggle-->
         <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" data-bs-target="#layoutSidenav_nav" aria-controls="layoutSidenav_nav"><i class="fas fa-bars"></i></button>
         <!-- Navbar-->
@@ -26,7 +26,10 @@
         </form>
         <ul class="navbar-nav ms-auto ms-md-0 me-3 me-lg-4">
             <li class="nav-item">
-                <a class="nav-link" href="{{ url('login')}}" role="button" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
+            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="{{url('login')}}" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="{{ url('logout')}}">Keluar</a></li>
+                    </ul>
             </li>
         </ul>
     </nav>
@@ -36,11 +39,6 @@
                 <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
                     <div class="sb-sidenav-menu">
                         <div class="nav">
-                            <div class="sb-sidenav-menu-heading">Tampilan</div>
-                            <a class="nav-link" href="{{url('/')}}">
-                                <div class="sb-nav-link-icon"><i class="fas fa-home"></i></div>
-                                home
-                            </a>
                             <div class="sb-sidenav-menu-heading">Tampilan</div>
                             <a class="nav-link" href="{{url('/')}}">
                                 <div class="sb-nav-link-icon"><i class="fas fa-home"></i></div>
@@ -81,7 +79,7 @@
                             <div class="sb-sidenav-menu-heading">Data</div>
                             <a class="nav-link" href="{{url('data')}}">
                                 <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
-                                Tables
+                                Tabel Data
                             </a>
                             <a class="nav-link" href="{{url('tambah-data')}}">
                                 <div class="sb-nav-link-icon"><i class="fas fa-plus-circle"></i></div>
@@ -89,13 +87,13 @@
                             </a>
                             <a class="nav-link" href="{{url('info')}}">
                                 <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
-                                Charts
+                                Statistik
                             </a>
                         </div>
                     </div>
                     <div class="sb-sidenav-footer">
-                        <div class="small">Logged in as:</div>
-                        Start Bootstrap
+                        <div class="small">Anda masuk Sebagai:</div>
+                        Admin
                     </div>
                 </nav>
             </div>

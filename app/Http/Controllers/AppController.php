@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Str;
 
 use App\Models\Library;
+use Auth;
 
 
 class AppController extends Controller
@@ -19,6 +20,9 @@ class AppController extends Controller
     }
         public function home(){
             return view("home");
+        }
+        public function tampilan(){
+            return view("tampilan");
         }
         public function info(){
             return view("info");
@@ -94,62 +98,46 @@ class AppController extends Controller
             return view("tambah_data");
         }
 
-        public function proses_edit_data(Request $request)
+        public function edit($id)
     {
-        $request->validate([
-            'isbn' => 'required',
-            'title' => 'required',
-            'name' => 'required',
-            'publisher' => 'required',
-            'date' => 'required',
-            'shelf_number' => 'required',
-            'picture' => 'image|mimes:jpeg,png,jpg,gif|max:2048',
-        ]);
-
-        $library = Library::find($request->id);
+        $library = Library::find($id);
 
         if (!$library) {
             return redirect('data')->with('error', 'Data tidak ditemukan.');
         }
 
+        return view('edit_data', compact('library'));
+    }
+
+    public function proses_edit_data(Request $request){
+        $library = Library::find($request->id);
         $isbn = $request->isbn;
 
-        // Perbarui nilai atribut pada model
-        $library->isbn = $isbn;
+        $library->$isbn;
         $library->title = $request->title;
         $library->name = $request->name;
         $library->publisher = $request->publisher;
         $library->date = $request->date;
         $library->shelf_number = $request->shelf_number;
 
-        // Periksa apakah ada file gambar yang diunggah
-        if ($request->hasFile('picture')) {
-            // Hapus foto lama dari direktori
-            if ($library->picture && file_exists(public_path('pictures/' . $library->picture))) {
-                unlink(public_path('pictures/' . $library->picture));
-            }
-
-            // Upload foto baru
-            $picture = $request->file('picture');
-            $pictureName = $isbn . '_' . Str::random(25) . '.' . $picture->getClientOriginalExtension();
-            $picture->move(public_path('pictures/'), $pictureName);
-
-            // Update nilai atribut gambar pada model
+        if($request->hafile("[picture")){
+            $picture = $request->file("picture");
+            $pictureName = $isbn."_".Str::random(25).".".$picture->getClientOriginalExtension();
+            $picture->move("./pictures/",$pictureName);
+            
             $library->picture = $pictureName;
         }
 
-        // Simpan perubahan
         $library->save();
 
-        // Flash message
         session()->flash('message', 'Data berhasil disimpan');
-
-        // Redirect kembali ke halaman edit dengan ID yang sesuai
-        return redirect("data/{$request->id}/edit");
+        return redirect("data/".$request->id."/edit");
     }
 
-    
     public function login(){
+        if(Auth::check()){
+            return redirect("tampilan");
+        }
         return view("login");
     }
 }

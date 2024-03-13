@@ -9,7 +9,7 @@
                         </ol>
                         <div class="card mb-4">
                             <div class="card-body">
-                                Rekapan semua informasi tentang perpustakaan .
+                                Rekapan informasi data perpustakaan .
                             </div>
                         </div>
                         <div class="card mb-4">
