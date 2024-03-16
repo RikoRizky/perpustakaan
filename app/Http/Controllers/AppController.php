@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Str;
 
 use App\Models\Library;
+use App\Models\Division;
 use Auth;
 
 
@@ -34,6 +35,10 @@ class AppController extends Controller
     
             // Mengirim data ke view
             return view('data', ['libraries' => $libraries]);
+
+            $data = ([
+                "divisions" => $divisions,
+            ]);
         }
         public function tabel()
         {
