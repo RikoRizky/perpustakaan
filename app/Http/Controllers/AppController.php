@@ -22,6 +22,9 @@ class AppController extends Controller
         public function home(){
             return view("home");
         }
+        public function bukukisahnabi(){
+            return view("bukukisahnabi");
+        }
         public function tampilan(){
             return view("tampilan");
         }

@@ -114,5 +114,14 @@
             <script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest" crossorigin="anonymous"></script>
             <script src="{{ url('js/datatables-simple-demo.js')}}"></script>
             <script src="{{ url('assets/demo/chart-pie-demo.js')}}"></script>
+            <!-- Js Plugins -->
+<script src="{{url('js/jquery-3.3.1.min.js')}}"></script>
+<script src="{{url('js/bootstrap.min.js')}}"></script>
+<script src="{{url('js/player.js')}}"></script>
+<script src="{{url('js/jquery.nice-select.min.js')}}"></script>
+<script src="{{url('js/mixitup.min.js')}}"></script>
+<script src="{{url('js/jquery.slicknav.js')}}"></script>
+<script src="{{url('js/owl.carousel.min.js')}}"></script>
+<script src="{{url('js/main.js')}}"></script>
     </body>
 </html>

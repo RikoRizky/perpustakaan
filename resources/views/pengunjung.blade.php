@@ -29,7 +29,7 @@
                 <a class="nav-link" href="{{ url('login')}}" role="button" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
             </li>
         </ul>
-    </nav>
+    </nav> 
 
         <div id="layoutSidenav">
             <div id="layoutSidenav_nav">
