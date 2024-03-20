@@ -24,6 +24,9 @@
     <link rel="stylesheet" href="{{url('css/nice-select.css')}}" type="text/css">
     <link rel="stylesheet" href="{{url('css/owl.carousel.min.css')}}" type="text/css">
     <link rel="stylesheet" href="{{url('css/slicknav.min.css')}}" type="text/css">
+    <style>a {
+    text-decoration: none;
+}</style>
 </head>
 <body class="sb-nav-fixed">
     <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">

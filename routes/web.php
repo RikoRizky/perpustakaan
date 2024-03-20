@@ -34,6 +34,11 @@ Route::middleware(['auth'])->group(function () {
     Route::post("proses-login",[AuthController::class,"proses_login"]);
     
     Route::get("/",[AppController::class,"home"]);
-    Route::get("bukukisahnabi",[AppController::class,"bukukisahnabi"]);
     Route::get("tabel",[AppController::class,"tabel"]);
+    Route::get("bukukisahnabi",[AppController::class,"bukukisahnabi"]);
+    Route::get("bukudesain",[AppController::class,"bukudesain"]);
+    Route::get("bukuhome",[AppController::class,"bukuhome"]);
+    Route::get("bukulayangan",[AppController::class,"bukulayangan"]);
+    Route::get("bukuphp",[AppController::class,"bukuphp"]);
+    Route::get("bukuulama",[AppController::class,"bukuulama"]);
     

@@ -23,8 +23,8 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcrumb__links">
-                        <a class="b" href="{{url('./categories.html')}}">Kategori</a>
-                        <span>religius</span>
+                        <a class="b" href="{{url('#')}}">Kategori</a>
+                        <span>BUKU IT</span>
                     </div>
                 </div>
             </div>
@@ -38,47 +38,45 @@
             <div class="anime__details__content">
                 <div class="row">
                     <div class="col-lg-3">
-                        <div class="anime__details__pic set-bg" data-setbg="{{('img/bukukisahnabi.jpg')}}">
-                            <div class="comment"><i class="fa fa-comments"></i> 22</div>
-                            <div class="view"><i class="fa fa-heart"></i> 9478</div>
+                        <div class="anime__details__pic set-bg" data-setbg="{{('img/bukudesain.jpg')}}">
+                            <div class="comment"><i class="fa fa-comments"></i> 15 </div>
+                            <div class="view"><i class="fa fa-heart"></i> 1.890 </div>
                         </div>
                     </div>
                     <div class="col-lg-9">
                         <div class="anime__details__text">
                             <div class="anime__details__title">
-                                <h3>Kisah Nabi Muhammad SAW</h3>
-                                <span> Ozkan Oze cehyun sen</span>
+                                <h3> Kitab Desain Grafis dengan CorelDraw 2019 </h3>
+                                <span> Jubilee enterprise </span>
                             </div>
                             <div class="anime__details__rating">
                                 <div class="rating">
-                                    <a href="{{url('')}}"><i class="fa fa-star g"></i></a>
-                                    <a href="{{url('')}}"><i class="fa fa-star g"></i></a>
-                                    <a href="{{url('')}}"><i class="fa fa-star g"></i></a>
-                                    <a href="{{url('')}}"><i class="fa fa-star g"></i></a>
-                                    <a href="{{url('')}}"><i class="fa fa-star-half g"></i></a>
+                                    <a href="{{url('#')}}"><i class="fa fa-star g"></i></a>
+                                    <a href="{{url('#')}}"><i class="fa fa-star g"></i></a>
+                                    <a href="{{url('#')}}"><i class="fa fa-star g"></i></a>
+                                    <a href="{{url('#')}}"><i class="fa fa-star g"></i></a>
+                                    <a href="{{url('#')}}"><i class="fa fa-star-half g"></i></a>
                                 </div>
-                                <span>1.980 Votes</span>
+                                <span>1.888 Votes</span>
                             </div>
-                            <p>Nabi Muhammad SAW adalah sosok yang baik hati dan pantang menyerah.
-Walaupun sering disakiti banyak orang jahat, Nabi kita adalah orang yang baik dan pemaaf.
-Seperti apa kisah hidup Nabi Muhammad SAW yang sudah membuat Nabi kita begitu hebat dan mengagumkan?
-</p>
+                            <p> Pada buku ini akan dibahas pembuatan aplikasi database MySQL dan PHP. Anda akan mempelajari beragam tool, syntax, query, dan langkah-langkah pembuatan aplikasi database. Dengan demikian Anda bisa mengenal aneka bahasa pemrograman yang berlainan dalam waktu singkat. Semoga buku ini bisa membantu Anda mengenal ragam pemrograman database di dunia IT.
+.</p>
                             <div class="anime__details__widget pt-3">
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6">
                                         <ul>
-                                            <li><span>Penerbit:</span> m$c </li>
-                                            <li><span>Tanggal terbit:</span> march 23 2021</li>
-                                            <li><span>ISBN:</span> 9786230304200</li>
+                                            <li><span>Penerbit:</span> ELEX Media Komputindo</li>
+                                            <li><span>Tanggal terbit:</span> oct 10 2019</li>
+                                            <li><span>ISBN:</span> 9786230010699</li>
                                             <li><span>Bahasa:</span> Indonesia</li>
                                         </ul>
                                     </div>
                                     <div class="col-lg-6 col-md-6">
                                         <ul>
-                                            <li><span>halaman:</span>144</li>
-                                            <li><span>Berat:</span> 0.3 kg</li>
-                                            <li><span>Lebar:</span> 16.5 cm</li>
-                                            <li><span>Panjang:</span> 22.0 cm</li>
+                                            <li><span>halaman:</span>280</li>
+                                            <li><span>Berat:</span> 0.38 kg</li>
+                                            <li><span>Lebar:</span> 14.0 cm</li>
+                                            <li><span>Panjang:</span> 19 cm</li>
                                         </ul>
                                     </div>
                                 </div>

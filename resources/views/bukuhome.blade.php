@@ -24,7 +24,7 @@
                 <div class="col-lg-12">
                     <div class="breadcrumb__links">
                         <a class="b" href="{{url('./categories.html')}}">Kategori</a>
-                        <span>religius</span>
+                        <span>novel</span>
                     </div>
                 </div>
             </div>
@@ -38,16 +38,16 @@
             <div class="anime__details__content">
                 <div class="row">
                     <div class="col-lg-3">
-                        <div class="anime__details__pic set-bg" data-setbg="{{('img/bukukisahnabi.jpg')}}">
-                            <div class="comment"><i class="fa fa-comments"></i> 22</div>
-                            <div class="view"><i class="fa fa-heart"></i> 9478</div>
+                        <div class="anime__details__pic set-bg" data-setbg="{{('img/bukuhome.jpg')}}">
+                            <div class="comment"><i class="fa fa-comments"></i> 15 </div>
+                            <div class="view"><i class="fa fa-heart"></i> 1.890 </div>
                         </div>
                     </div>
                     <div class="col-lg-9">
                         <div class="anime__details__text">
                             <div class="anime__details__title">
-                                <h3>Kisah Nabi Muhammad SAW</h3>
-                                <span> Ozkan Oze cehyun sen</span>
+                                <h3>Home sweet loan </h3>
+                                <span> Almira Bastari</span>
                             </div>
                             <div class="anime__details__rating">
                                 <div class="rating">
@@ -57,28 +57,28 @@
                                     <a href="{{url('')}}"><i class="fa fa-star g"></i></a>
                                     <a href="{{url('')}}"><i class="fa fa-star-half g"></i></a>
                                 </div>
-                                <span>1.980 Votes</span>
+                                <span>1.888 Votes</span>
                             </div>
-                            <p>Nabi Muhammad SAW adalah sosok yang baik hati dan pantang menyerah.
-Walaupun sering disakiti banyak orang jahat, Nabi kita adalah orang yang baik dan pemaaf.
-Seperti apa kisah hidup Nabi Muhammad SAW yang sudah membuat Nabi kita begitu hebat dan mengagumkan?
-</p>
+                            <p>Novel Home Sweet Loan mengangkat genre yang sama dengan karya Almira sebelumnya yang berjudul “Ganjil Genap”, yaitu metropop.
+ Namun, novel Home Sweet Loan ini akan menyajikan cerita yang ditulis menjadi lebih serius.
+Layaknya novel-novel karya Almira sebelumnya, Home Sweet Loan menggunakan latar cerita di Kota Jakarta. Namun, 
+cerita kali ini lebih menyoroti kaum menengah dengan mengisahkan perjuangan dari sudut pandang mereka.</p>
                             <div class="anime__details__widget pt-3">
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6">
                                         <ul>
-                                            <li><span>Penerbit:</span> m$c </li>
-                                            <li><span>Tanggal terbit:</span> march 23 2021</li>
-                                            <li><span>ISBN:</span> 9786230304200</li>
+                                            <li><span>Penerbit:</span> RDM PUBLISHERS </li>
+                                            <li><span>Tanggal terbit:</span> 15 reb 2022</li>
+                                            <li><span>ISBN:</span> 9786020658049</li>
                                             <li><span>Bahasa:</span> Indonesia</li>
                                         </ul>
                                     </div>
                                     <div class="col-lg-6 col-md-6">
                                         <ul>
-                                            <li><span>halaman:</span>144</li>
-                                            <li><span>Berat:</span> 0.3 kg</li>
-                                            <li><span>Lebar:</span> 16.5 cm</li>
-                                            <li><span>Panjang:</span> 22.0 cm</li>
+                                            <li><span>halaman:</span>312.0</li>
+                                            <li><span>Berat:</span> 0.21 kg</li>
+                                            <li><span>Lebar:</span> 13.5 cm</li>
+                                            <li><span>Panjang:</span> 20 cm</li>
                                         </ul>
                                     </div>
                                 </div>

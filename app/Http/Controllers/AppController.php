@@ -25,6 +25,21 @@ class AppController extends Controller
         public function bukukisahnabi(){
             return view("bukukisahnabi");
         }
+        public function bukuhome(){
+            return view("bukuhome");
+        }
+        public function bukuphp(){
+            return view("bukuphp");
+        }
+        public function bukuulama(){
+            return view("bukuulama");
+        }
+        public function bukudesain(){
+            return view("bukudesain");
+        }
+        public function bukulayangan(){
+            return view("bukulayangan");
+        }
         public function tampilan(){
             return view("tampilan");
         }
@@ -107,40 +122,54 @@ class AppController extends Controller
         }
 
         public function edit($id)
-    {
-        $library = Library::find($id);
+{
+    $library = Library::find($id);
 
-        if (!$library) {
-            return redirect('data')->with('error', 'Data tidak ditemukan.');
-        }
-
-        return view('edit_data', compact('library'));
+    if (!$library) {
+        return redirect('data')->with('error', 'Data tidak ditemukan.');
     }
 
-    public function proses_edit_data(Request $request){
-        $library = Library::find($request->id);
-        $isbn = $request->isbn;
+    return view('edit_data', compact('library'));
+}
 
-        $library->$isbn;
-        $library->title = $request->title;
-        $library->name = $request->name;
-        $library->publisher = $request->publisher;
-        $library->date = $request->date;
-        $library->shelf_number = $request->shelf_number;
+public function prosesEditData(Request $request)
+{
+    $request->validate([
+        'isbn' => 'required',
+        'title' => 'required',
+        'name' => 'required',
+        'publisher' => 'required',
+        'date' => 'required',
+        'shelf_number' => 'required',
+        'picture' => 'image|mimes:jpeg,png,jpg,gif,svg|max:2048', // validation for image
+    ]);
 
-        if($request->hafile("[picture")){
-            $picture = $request->file("picture");
-            $pictureName = $isbn."_".Str::random(25).".".$picture->getClientOriginalExtension();
-            $picture->move("./pictures/",$pictureName);
-            
-            $library->picture = $pictureName;
-        }
+    $library = Library::find($request->id);
 
-        $library->save();
-
-        session()->flash('message', 'Data berhasil disimpan');
-        return redirect("data/".$request->id."/edit");
+    if (!$library) {
+        return redirect('data')->with('error', 'Data tidak ditemukan.');
     }
+
+    $library->isbn = $request->isbn;
+    $library->title = $request->title;
+    $library->name = $request->name;
+    $library->publisher = $request->publisher;
+    $library->date = $request->date;
+    $library->shelf_number = $request->shelf_number;
+
+    if ($request->hasFile('picture')) {
+        $picture = $request->file('picture');
+        $pictureName = $library->isbn . '_' . Str::random(25) . '.' . $picture->getClientOriginalExtension();
+        $picture->move(public_path('pictures'), $pictureName);
+
+        $library->picture = $pictureName;
+    }
+
+    $library->save();
+
+    return redirect('data')->with('success', 'Data berhasil diperbarui');
+}
+
 
     public function login(){
         if(Auth::check()){
