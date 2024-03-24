@@ -9,37 +9,32 @@
     <section class="hero">
         <div class="container">
             <div class="hero__slider owl-carousel">
-                <div class="hero__items set-bg" data-setbg="{{url('images/prot1.png')}}">
+                <div class="hero__items set-bg" data-setbg="{{url('img/hd1.png')}}">
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="hero__text">
-                                <h2>Hallo, Selamat Datang..</h2>
-                                <p>After 30 days of travel across the world...</p>
-                                <a href="{{url('#')}}"><span>Watch Now</span> <i class="fa fa-arrow-right"></i></a>
+                                <h2>Hallo, Selamat Datang.</h2>
+                                <p>Nikmati suasana perpustakaan ini...</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="hero__items set-bg" data-setbg="{{url('/images/prot2.png')}}">
+                <div class="hero__items set-bg" data-setbg="{{url('/img/hd2.png')}}">
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="hero__text">
-                                <div class="label">Adventure</div>
-                                <h2>Fate / Stay Night: Unlimited Blade Works</h2>
-                                <p>After 30 days of travel across the world...</p>
-                                <a href="{{url('#')}}"><span>Watch Now</span> <i class="fa fa-angle-right"></i></a>
+                                <h2>Tersedia berbagai macam jenis buku</h2>
+                                <p>Nikmati suasana perpustakaan ini...</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="hero__items set-bg" data-setbg="{{url('/images/prot3.png')}}">
+                <div class="hero__items set-bg" data-setbg="{{url('/img/hd3.png')}}">
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="hero__text">
-                                <div class="label">Adventure</div>
-                                <h2>Fate / Stay Night: Unlimited Blade Works</h2>
-                                <p>After 30 days of travel across the world...</p>
-                                <a href="{{url('#')}}"><span>Watch Now</span> <i class="fa fa-angle-right"></i></a>
+                                <h2 style="color: #;">Dan tersedia tempat yang nyaman untuk membaca</h2>
+                                <p>Nimati suasana perpustakaan ini...</p>
                             </div>
                         </div>
                     </div>
@@ -163,36 +158,36 @@
                                 <h5>Top Tranding</h5>
                             </div>
                             <ul class="filter__controls">
-                                <li class="active" data-filter="*">Religius</li>
+                                <li class="active" data-filter="*">Semuanya</li>
                                 <li data-filter=".week">Ilmu</li>
                                 <li data-filter=".month">Novel</li>
-                                <li data-filter=".years">Manga</li>
+                                <li data-filter=".years">Islami</li>
                             </ul>
                             <div class="filter__gallery">
-                                <div class="product__sidebar__view__item set-bg mix day years"
-                                data-setbg="{{url('/img/hukum1.jpg')}}">
+                                <div class="product__sidebar__view__item set-bg mix years"
+                                data-setbg="{{url('/img/bukukisahnabi.jpg')}}">
                                 <div class="view"><i class="fa fa-heart"></i> 9141</div>
-                                <h5><a href="{{url('#')}}">Boruto: Naruto next generations</a></h5>
+                                <h5><a href="{{url('bukukisahnabi')}}">Kisah Nabi Muhammad SAW Shallallahu `alaihi Wa Sallam</a></h5>
                             </div>
-                            <div class="product__sidebar__view__item set-bg mix month week"
-                            data-setbg="{{url('/img/hukum2.jpg')}}">
+                            <div class="product__sidebar__view__item set-bg mix month years"
+                            data-setbg="{{url('/img/bukulayangan.jpg')}}">
                             <div class="view"><i class="fa fa-heart"></i> 9141</div>
-                            <h5><a href="{{url('#')}}">The Seven Deadly Sins: Wrath of the Gods</a></h5>
+                            <h5><a href="{{url('bukulayangan')}}">Layangan putus</a></h5>
                         </div>
                         <div class="product__sidebar__view__item set-bg mix week years"
-                        data-setbg="{{url('/img/manajemen1.jpg')}}">
+                        data-setbg="{{url('/img/bukuulama.jpg')}}">
                         <div class="view"><i class="fa fa-heart"></i> 9141</div>
-                        <h5><a href="{{url('#')}}">Sword art online alicization war of underworld</a></h5>
+                        <h5><a href="{{url('bukuulama')}}">Ulama Kritis Berjejak Manis</a></h5>
                     </div>
-                    <div class="product__sidebar__view__item set-bg mix years month"
-                    data-setbg="{{url('/img/manajemen2.jpg')}}">
+                    <div class="product__sidebar__view__item set-bg mix week"
+                    data-setbg="{{url('/img/bukudesain.jpg')}}">
                     <div class="view"><i class="fa fa-heart"></i> 9141</div>
-                    <h5><a href="{{url('#')}}">Fate/stay night: Heaven's Feel I. presage flower</a></h5>
+                    <h5><a href="{{url('bukudesain')}}">Kitab Desain Grafis dengan CorelDraw 2019</a></h5>
                     </div>
-                <div class="product__sidebar__view__item set-bg mix day"
+                <div class="product__sidebar__view__item set-bg mix month"
                 data-setbg="{{url('/img/bukuhome.jpg')}}">
                 <div class="view"><i class="fa fa-heart"></i> 9141</div>
-                <h5><a href="{{url('#')}}">Fate stay night unlimited blade works</a></h5>
+                <h5><a href="{{url('bukuhome')}}">Home sweet loan</a></h5>
             </div>
         </div>
     </div>

@@ -144,6 +144,12 @@ ol {
 	background-position: top center;
 }
 
+@media (max-width: 768px) {
+    .set-bg {
+        background-size: contain;
+    }
+}
+
 .spad {
 	padding-top: 100px;
 	padding-bottom: 100px;
@@ -443,11 +449,6 @@ ol {
 
 .hero {
 	padding-top: 10px;
-}
-
-.hero__items {
-	padding: 250px 0 42px 50px;
-	border-radius: 5px;
 }
 
 .hero__text {
@@ -2241,14 +2242,34 @@ ol {
 	}
 }
 
-/* Small Device = 320px */
+.hero__items {
+	padding: 280px 0 42px 50px;
+	border-radius: 5px;
+	min-width: 95%;
+	width: 100%; /* Lebar 100% */
+    height: 550px; /* Tinggi 400 piksel */
+    background-size: cover; /* Menutupi area dengan gambar */
+    background-position: left; /* Posisi tengah */
+    position: relative; /* Posisi relatif */
+}
 
+/* Small Device = 320px */
 @media only screen and (max-width: 479px) {
 	.hero__slider.owl-carousel .owl-nav {
+		min-width: 95%;
 		display: none;
+		background-size: cover; /* Menyesuaikan gambar ke area */
+		background-position: left; /* Menengahkan gambar */
+		position: relative; /* Posisi relatif */
+		background-position: right;
 	}
 	.hero__items {
 		padding: 250px 0 42px 15px;
+		min-width: 95%;
+	background-position: right;
+		background-size: cover; /* Menyesuaikan gambar ke area */
+		background-position: left; /* Menengahkan gambar */
+		position: relative; /* Posisi relatif */
 	}
 	.hero__text h2 {
 		font-size: 32px;

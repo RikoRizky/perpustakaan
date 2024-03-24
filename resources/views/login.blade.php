@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ url('bootstrap/css/bootstrap.min.css') }}" type="text/css">
+    <link rel="icon" href="{{url('img/rpl.png')}}" type="image/x-icon">
     <title>Login</title>
 </head>
 <style>
