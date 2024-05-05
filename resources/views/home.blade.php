@@ -34,7 +34,7 @@
                         <div class="col-lg-6">
                             <div class="hero__text">
                                 <h2 style="color: #;">Dan tersedia tempat yang nyaman untuk membaca</h2>
-                                <p>Nimati suasana perpustakaan ini...</p>
+                                <p>Harap jangan berisik...</p>
                             </div>
                         </div>
                     </div>
@@ -61,7 +61,7 @@
                             <div class="col-lg-4 col-md-6 col-sm-6">
                                 <div class="product__item">
                                     <div class="product__item__pic set-bg" data-setbg="{{url('/img/bukudesain.jpg')}}">
-                                        <div class="comment"><i class="fa fa-comments"></i> 11</div>
+                                        <!-- <div class="comment"><i class="fa fa-comments"></i> 11</div> -->
                                         <div class="view"><i class="fa fa-heart"></i> 9141</div>
                                     </div>
                                     <div class="product__item__text">
@@ -76,8 +76,8 @@
                             <div class="col-lg-4 col-md-6 col-sm-6">
                                 <div class="product__item">
                                     <div class="product__item__pic set-bg" data-setbg="{{url('img/bukuhome.jpg')}}">
-                                        <div class="comment"><i class="fa fa-comments"></i> 11</div>
-                                        <div class="view"><i class="fa fa-heart"></i> 9141</div>
+                                        <!-- <div class="comment"><i class="fa fa-comments"></i> 11</div> -->
+                                        <div class="view"><i class="fa fa-heart"></i> 8943</div>
                                     </div>
                                     <div class="product__item__text">
                                         <ul>
@@ -91,8 +91,8 @@
                             <div class="col-lg-4 col-md-6 col-sm-6">
                                 <div class="product__item">
                                     <div class="product__item__pic set-bg" data-setbg="{{url('/img/bukukisahnabi.jpg')}}">
-                                        <div class="comment"><i class="fa fa-comments"></i> 11</div>
-                                        <div class="view"><i class="fa fa-heart"></i> 9141</div>
+                                        <!-- <div class="comment"><i class="fa fa-comments"></i> 11</div> -->
+                                        <div class="view"><i class="fa fa-heart"></i> 534.859</div>
                                     </div>
                                     <div class="product__item__text">
                                         <ul>
@@ -106,8 +106,8 @@
                             <div class="pt-3 col-lg-4 col-md-6 col-sm-6">
                                 <div class="product__item">
                                     <div class="product__item__pic set-bg" data-setbg="{{url('/img/bukulayangan.jpg')}}">
-                                        <div class="comment"><i class="fa fa-comments"></i> 11</div>
-                                        <div class="view"><i class="fa fa-heart"></i> 9141</div>
+                                        <!-- <div class="comment"><i class="fa fa-comments"></i> 11</div> -->
+                                        <div class="view"><i class="fa fa-heart"></i> 15.576</div>
                                     </div>
                                     <div class="product__item__text">
                                         <ul>
@@ -121,8 +121,8 @@
                             <div class="pt-3 col-lg-4 col-md-6 col-sm-6">
                                 <div class="product__item">
                                     <div class="product__item__pic set-bg" data-setbg="{{url('/img/bukuphp.jpg')}}">
-                                        <div class="comment"><i class="fa fa-comments"></i> 11</div>
-                                        <div class="view"><i class="fa fa-heart"></i> 9141</div>
+                                        <!-- <div class="comment"><i class="fa fa-comments"></i> 11</div> -->
+                                        <div class="view"><i class="fa fa-heart"></i> 12.657</div>
                                     </div>
                                     <div class="product__item__text">
                                         <ul>
@@ -136,8 +136,8 @@
                             <div class="pt-3 col-lg-4 col-md-6 col-sm-6">
                                 <div class="product__item">
                                     <div class="product__item__pic set-bg" data-setbg="{{url('/img/bukuulama.jpg')}}">
-                                        <div class="comment"><i class="fa fa-comments"></i> 11</div>
-                                        <div class="view"><i class="fa fa-heart"></i> 9141</div>
+                                        <!-- <div class="comment"><i class="fa fa-comments"></i> 11</div> -->
+                                        <div class="view"><i class="fa fa-heart"></i> 24.770</div>
                                     </div>
                                     <div class="product__item__text">
                                         <ul>
@@ -166,17 +166,17 @@
                             <div class="filter__gallery">
                                 <div class="product__sidebar__view__item set-bg mix years"
                                 data-setbg="{{url('/img/bukukisahnabi.jpg')}}">
-                                <div class="view"><i class="fa fa-heart"></i> 9141</div>
+                                <div class="view"><i class="fa fa-heart"></i> 534.859</div>
                                 <h5><a href="{{url('bukukisahnabi')}}">Kisah Nabi Muhammad SAW Shallallahu `alaihi Wa Sallam</a></h5>
                             </div>
                             <div class="product__sidebar__view__item set-bg mix month years"
                             data-setbg="{{url('/img/bukulayangan.jpg')}}">
-                            <div class="view"><i class="fa fa-heart"></i> 9141</div>
+                            <div class="view"><i class="fa fa-heart"></i> 15.576</div>
                             <h5><a href="{{url('bukulayangan')}}">Layangan putus</a></h5>
                         </div>
                         <div class="product__sidebar__view__item set-bg mix week years"
                         data-setbg="{{url('/img/bukuulama.jpg')}}">
-                        <div class="view"><i class="fa fa-heart"></i> 9141</div>
+                        <div class="view"><i class="fa fa-heart"></i> 24.770</div>
                         <h5><a href="{{url('bukuulama')}}">Ulama Kritis Berjejak Manis</a></h5>
                     </div>
                     <div class="product__sidebar__view__item set-bg mix week"
@@ -186,7 +186,7 @@
                     </div>
                 <div class="product__sidebar__view__item set-bg mix month"
                 data-setbg="{{url('/img/bukuhome.jpg')}}">
-                <div class="view"><i class="fa fa-heart"></i> 9141</div>
+                <div class="view"><i class="fa fa-heart"></i> 8943</div>
                 <h5><a href="{{url('bukuhome')}}">Home sweet loan</a></h5>
             </div>
         </div>
