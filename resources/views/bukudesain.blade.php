@@ -39,8 +39,7 @@
                 <div class="row">
                     <div class="col-lg-3">
                         <div class="anime__details__pic set-bg" data-setbg="{{('img/bukudesain.jpg')}}">
-                            <div class="comment"><i class="fa fa-comments"></i> 15 </div>
-                            <div class="view"><i class="fa fa-heart"></i> 1.890 </div>
+                            <div class="view"><i class="fa fa-heart"></i>9.141</div>
                         </div>
                     </div>
                     <div class="col-lg-9">

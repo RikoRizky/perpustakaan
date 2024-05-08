@@ -34,7 +34,7 @@
                         <div class="col-lg-6">
                             <div class="hero__text">
                                 <h2 style="color: #;">Dan tersedia tempat yang nyaman untuk membaca</h2>
-                                <p>Nimati suasana perpustakaan ini...</p>
+                                <p>Harap jangan berisik...</p>
                             </div>
                         </div>
                     </div>
@@ -61,7 +61,7 @@
                             <div class="col-lg-4 col-md-6 col-sm-6">
                                 <div class="product__item">
                                     <div class="product__item__pic set-bg" data-setbg="{{url('/img/bukudesain.jpg')}}">
-                                        <div class="view"><i class="fa fa-heart"></i> 1027</div>
+                                        <div class="view"><i class="fa fa-heart"></i> 9.141</div>
                                     </div>
                                     <div class="product__item__text">
                                         <ul>
@@ -75,7 +75,7 @@
                             <div class="col-lg-4 col-md-6 col-sm-6">
                                 <div class="product__item">
                                     <div class="product__item__pic set-bg" data-setbg="{{url('img/bukuhome.jpg')}}">
-                                        <div class="view"><i class="fa fa-heart"></i> 9879</div>
+                                        <div class="view"><i class="fa fa-heart"></i>  8.943</div>
                                     </div>
                                     <div class="product__item__text">
                                         <ul>
@@ -89,7 +89,7 @@
                             <div class="col-lg-4 col-md-6 col-sm-6">
                                 <div class="product__item">
                                     <div class="product__item__pic set-bg" data-setbg="{{url('/img/bukukisahnabi.jpg')}}">
-                                        <div class="view"><i class="fa fa-heart"></i> 7684</div>
+                                        <div class="view"><i class="fa fa-heart"></i> 534.859</div>
                                     </div>
                                     <div class="product__item__text">
                                         <ul>
@@ -103,7 +103,7 @@
                             <div class="pt-3 col-lg-4 col-md-6 col-sm-6">
                                 <div class="product__item">
                                     <div class="product__item__pic set-bg" data-setbg="{{url('/img/bukulayangan.jpg')}}">
-                                        <div class="view"><i class="fa fa-heart"></i> 15467</div>
+                                        <div class="view"><i class="fa fa-heart"></i> 35.576</div>
                                     </div>
                                     <div class="product__item__text">
                                         <ul>
@@ -117,7 +117,7 @@
                             <div class="pt-3 col-lg-4 col-md-6 col-sm-6">
                                 <div class="product__item">
                                     <div class="product__item__pic set-bg" data-setbg="{{url('/img/bukuphp.jpg')}}">
-                                        <div class="view"><i class="fa fa-heart"></i> 9899</div>
+                                        <div class="view"><i class="fa fa-heart"></i> 6.899</div>
                                     </div>
                                     <div class="product__item__text">
                                         <ul>
@@ -131,7 +131,7 @@
                             <div class="pt-3 col-lg-4 col-md-6 col-sm-6">
                                 <div class="product__item">
                                     <div class="product__item__pic set-bg" data-setbg="{{url('/img/bukuulama.jpg')}}">
-                                        <div class="view"><i class="fa fa-heart"></i> 7663</div>
+                                        <div class="view"><i class="fa fa-heart"></i> 24.770</div>
                                     </div>
                                     <div class="product__item__text">
                                         <ul>
@@ -160,27 +160,27 @@
                             <div class="filter__gallery">
                                 <div class="product__sidebar__view__item set-bg mix years"
                                 data-setbg="{{url('/img/bukukisahnabi.jpg')}}">
-                                <div class="view"><i class="fa fa-heart"></i> 9141</div>
+                                <div class="view"><i class="fa fa-heart"></i> 534.859</div>
                                 <h5><a href="{{url('bukukisahnabi')}}">Kisah Nabi Muhammad SAW Shallallahu `alaihi Wa Sallam</a></h5>
                             </div>
                             <div class="product__sidebar__view__item set-bg mix month years"
                             data-setbg="{{url('/img/bukulayangan.jpg')}}">
-                            <div class="view"><i class="fa fa-heart"></i> 9141</div>
+                            <div class="view"><i class="fa fa-heart"></i> 35.576</div>
                             <h5><a href="{{url('bukulayangan')}}">Layangan putus</a></h5>
                         </div>
                         <div class="product__sidebar__view__item set-bg mix week years"
                         data-setbg="{{url('/img/bukuulama.jpg')}}">
-                        <div class="view"><i class="fa fa-heart"></i> 9141</div>
+                        <div class="view"><i class="fa fa-heart"></i> 24.770</div>
                         <h5><a href="{{url('bukuulama')}}">Ulama Kritis Berjejak Manis</a></h5>
                     </div>
                     <div class="product__sidebar__view__item set-bg mix week"
                     data-setbg="{{url('/img/bukudesain.jpg')}}">
-                    <div class="view"><i class="fa fa-heart"></i> 9141</div>
+                    <div class="view"><i class="fa fa-heart"></i> 9.141</div>
                     <h5><a href="{{url('bukudesain')}}">Kitab Desain Grafis dengan CorelDraw 2019</a></h5>
                     </div>
                 <div class="product__sidebar__view__item set-bg mix month"
                 data-setbg="{{url('/img/bukuhome.jpg')}}">
-                <div class="view"><i class="fa fa-heart"></i> 9141</div>
+                <div class="view"><i class="fa fa-heart"></i> 8.943</div>
                 <h5><a href="{{url('bukuhome')}}">Home sweet loan</a></h5>
             </div>
         </div>

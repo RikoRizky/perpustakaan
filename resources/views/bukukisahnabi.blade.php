@@ -39,8 +39,7 @@
                 <div class="row">
                     <div class="col-lg-3">
                         <div class="anime__details__pic set-bg" data-setbg="{{('img/bukukisahnabi.jpg')}}">
-                            <div class="comment"><i class="fa fa-comments"></i> 22</div>
-                            <div class="view"><i class="fa fa-heart"></i> 9478</div>
+                            <div class="view"><i class="fa fa-heart"></i> 534.859</div>
                         </div>
                     </div>
                     <div class="col-lg-9">
