@@ -52,7 +52,7 @@
 
         // Don't remove IDs by default if duplicate is false
         if (!this.settings.duplicate && !options.hasOwnProperty("removeIds")) {
-          this.settings.removeIds = false;
+        this.settings.removeIds = false;
         }
 
         this._defaults = defaults;
@@ -77,10 +77,10 @@
 
         // remove IDs if set
         if (settings.removeIds) {
-          $this.mobileNav.removeAttr('id');
-          $this.mobileNav.find('*').each(function (i, e) {
-              $(e).removeAttr('id');
-          });
+        $this.mobileNav.removeAttr('id');
+        $this.mobileNav.find('*').each(function (i, e) {
+            $(e).removeAttr('id');
+        });
         }
 
         // remove classes if set

@@ -66,4 +66,5 @@
                         </div>
                     </div>
                 </footer>
+                <script src="{{url('js/datatables-simple-demo')}}"></script>
 @endsection

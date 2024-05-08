@@ -68,7 +68,7 @@ cerita kali ini lebih menyoroti kaum menengah dengan mengisahkan perjuangan dari
                                     <div class="col-lg-6 col-md-6">
                                         <ul>
                                             <li><span>Penerbit:</span> RDM PUBLISHERS </li>
-                                            <li><span>Tanggal terbit:</span> 15 reb 2022</li>
+                                            <li><span>Tanggal terbit:</span> 15 feb 2022</li>
                                             <li><span>ISBN:</span> 9786020658049</li>
                                             <li><span>Bahasa:</span> Indonesia</li>
                                         </ul>

@@ -54,9 +54,9 @@ class AppController extends Controller
             // Mengirim data ke view
             return view('data', ['libraries' => $libraries]);
 
-            $data = ([
-                "divisions" => $divisions,
-            ]);
+            // $data = ([
+            //     "divisions" => $divisions,
+            // ]);
         }
         public function tabel()
         {
