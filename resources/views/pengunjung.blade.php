@@ -47,7 +47,7 @@
                                 <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
                                 Tabel Data
                             </a>
-                            <div class="sb-sidenav-menu-heading">Pencarian</div>
+                            <!-- <div class="sb-sidenav-menu-heading">Pencarian</div>
                             <a class="nav-link collapsed" href="{{url('#')}}" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
                                 <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
                                 Pencarian berdasarkan
@@ -58,7 +58,7 @@
                                     <a class="nav-link" href="{{url('#')}}">Kota</a>
                                     <a class="nav-link" href="{{url('#')}}">No Rak</a>
                                 </nav>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                     <div class="sb-sidenav-footer">

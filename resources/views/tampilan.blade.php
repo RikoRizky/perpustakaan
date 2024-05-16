@@ -78,67 +78,66 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="col-lg-4 col-md-6 col-sm-6"><a href="{{url('bukudesain')}}">
                                 <div class="product__item">
                                     <div class="product__item__pic set-bg" data-setbg="{{url('/img/bukudesain.jpg')}}">
-                                        
                                         <div class="view"><i class="fa fa-heart"></i> 9.141</div>
                                     </div>
                                     <div class="product__item__text">
                                         <ul>
                                             <li>Ilmu</li>
-                                            <li>Desain</li>
+                                            <li>Desain/li>
                                         </ul>
                                         <h5><a href="{{url('bukudesain')}}">Kitab Desain Grafis dengan CorelDraw 2019</a></h5>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6">
+                            </a></div>
+                            <div class="col-lg-4 col-md-6 col-sm-6"><a href="{{url('bukuhome')}}">
                                 <div class="product__item">
                                     <div class="product__item__pic set-bg" data-setbg="{{url('img/bukuhome.jpg')}}">
-                                        <div class="view"><i class="fa fa-heart"></i> 8.943</div>
+                                        <div class="view"><i class="fa fa-heart"></i>  8.943</div>
                                     </div>
                                     <div class="product__item__text">
                                         <ul>
-                                            <li>kehidupan</li>
-                                            <li>keluarga</li>
+                                            <li>Kehidupan</li>
+                                            <li>Pertemanan</li>
                                         </ul>
                                         <h5><a href="{{url('bukuhome')}}">Home sweet loan</a></h5>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6">
+                            </a></div>
+                            <div class="col-lg-4 col-md-6 col-sm-6"><a href="{{url('bukukisahnabi')}}">
                                 <div class="product__item">
                                     <div class="product__item__pic set-bg" data-setbg="{{url('/img/bukukisahnabi.jpg')}}">
                                         <div class="view"><i class="fa fa-heart"></i> 534.859</div>
                                     </div>
                                     <div class="product__item__text">
                                         <ul>
-                                            <li>religius</li>
-                                            <li>kisah</li>
+                                            <li>Religius</li>
+                                            <li>Kisah</li>
                                         </ul>
                                         <h5><a href="{{url('bukukisahnabi')}}">Kisah Nabi Muhammad SAW Shallallahu `alaihi Wa Sallam</a></h5>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="pt-3 col-lg-4 col-md-6 col-sm-6">
+                            </a></div>
+                            <div class="pt-3 col-lg-4 col-md-6 col-sm-6"><a href="{{url('bukulayangan')}}">
                                 <div class="product__item">
                                     <div class="product__item__pic set-bg" data-setbg="{{url('/img/bukulayangan.jpg')}}">
                                         <div class="view"><i class="fa fa-heart"></i> 35.576</div>
                                     </div>
                                     <div class="product__item__text">
                                         <ul>
+                                            <li>kehidupan</li>
                                             <li>Keluarga</li>
-                                            <li>Kehidupan</li>
                                         </ul>
                                         <h5><a href="{{url('bukulayangan')}}">Layangan putus</a></h5>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="pt-3 col-lg-4 col-md-6 col-sm-6">
+                            </a></div>
+                            <div class="pt-3 col-lg-4 col-md-6 col-sm-6"><a href="{{url('bukuphp')}}">
                                 <div class="product__item">
                                     <div class="product__item__pic set-bg" data-setbg="{{url('/img/bukuphp.jpg')}}">
-                                        <div class="view"><i class="fa fa-heart"></i> 9.899</div>
+                                        <div class="view"><i class="fa fa-heart"></i> 6.899</div>
                                     </div>
                                     <div class="product__item__text">
                                         <ul>
@@ -148,8 +147,8 @@
                                         <h5><a href="{{url('bukuphp')}}">PHP 7 MYSQL</a></h5>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="pt-3 col-lg-4 col-md-6 col-sm-6">
+                            </a></div>
+                            <div class="pt-3 col-lg-4 col-md-6 col-sm-6"><a href="{{url('bukuulama')}}">
                                 <div class="product__item">
                                     <div class="product__item__pic set-bg" data-setbg="{{url('/img/bukuulama.jpg')}}">
                                         <div class="view"><i class="fa fa-heart"></i> 24.770</div>
@@ -157,12 +156,12 @@
                                     <div class="product__item__text">
                                         <ul>
                                             <li>Religius</li>
-                                            <li>agama</li>
+                                            <li>Agama</li>
                                         </ul>
                                         <h5><a href="{{url('bukuulama')}}">Ulama Kritis Berjejak Manis</a></h5>
                                     </div>
                                 </div>
-                            </div>
+                        </a></div>
                         </div>
                     </div>
                 </div>
