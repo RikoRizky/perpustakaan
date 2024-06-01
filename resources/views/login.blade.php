@@ -9,7 +9,7 @@
 </head>
 <style>
     /* Importing fonts from Google */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap'); */
 
 /* Reseting */
 * {
@@ -106,12 +106,12 @@ body {
     color: #039BE5;
 }
 
-@media(max-width: 380px) {
+/* @media(max-width: 380px) {
     .wrapper {
         margin: 30px 20px;
         padding: 40px 15px 15px 15px;
     }
-}
+} */
 </style>
 <body>
 <div class="wrapper">
@@ -141,7 +141,7 @@ body {
             <button class="btn mt-3">Login</button>
         </form>
         <div class="text-center fs-6">
-            <a href="{{url('/')}}">Bukan admin ?</a>
+            <a href="{{url('.')}}">Bukan admin ?</a>
         </div>
     </div>
 </body>

@@ -23,7 +23,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcrumb__links">
-                        <a class="b" href="{{url('./categories.html')}}">Kategori</a>
+                        <a class="b" href="{{url('.')}}">Kategori</a>
                         <span>novel</span>
                     </div>
                 </div>
